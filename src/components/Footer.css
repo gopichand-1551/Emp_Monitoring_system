@@ -1,0 +1,52 @@
+.app-footer {
+    background: linear-gradient(135deg, #0e1e2d 0%, #1a3a52 100%);
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(90deg, #00d7ff 0%, #ff8c00 50%, #00d7ff 100%);
+    border-image-slice: 1;
+    padding: 1.5rem 2rem;
+    position: relative;
+    z-index: 10;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-text {
+    color: #a0d8ff;
+    font-size: 0.95rem;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.footer-brand {
+    color: #00d7ff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.footer-brand:hover {
+    color: #ff8c00;
+    text-shadow: 0 0 10px rgba(255, 140, 0, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .app-footer {
+        padding: 1rem 1.5rem;
+    }
+
+    .footer-text {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-text {
+        font-size: 0.75rem;
+    }
+}

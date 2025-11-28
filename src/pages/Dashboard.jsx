@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Sidebar from '../components/Sidebar';
 import Card from '../components/Card';
 import StatCard from '../components/StatCard';
+import UserProfile from '../components/UserProfile';
 import { Users, Calendar, CheckSquare, Clock, TrendingUp } from 'lucide-react';
 import { employeeService } from '../services/employeeService';
 import { leaveService } from '../services/leaveService';
@@ -52,6 +53,7 @@ const Dashboard = () => {
                         <h1 className="dashboard-title">DASHBOARD</h1>
                         <p className="dashboard-subtitle">WELCOME TO EMPLOYEE MONITORING SYSTEM</p>
                     </div>
+                    <UserProfile />
                 </div>
 
                 <div className="stats-grid">
