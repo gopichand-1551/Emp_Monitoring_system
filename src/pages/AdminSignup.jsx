@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { UserPlus } from 'lucide-react';
 import cnLogo from '../assets/cn-logo.jpg';
+import Footer from '../components/Footer';
 import './AdminLogin.css';
 
 const AdminSignup = () => {
@@ -131,6 +132,8 @@ const AdminSignup = () => {
                     </div>
                 </form>
             </div>
+
+            <Footer />
         </div>
     );
 };

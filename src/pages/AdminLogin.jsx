@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { LogIn } from 'lucide-react';
 import cnLogo from '../assets/cn-logo.jpg';
+import Footer from '../components/Footer';
 import './AdminLogin.css';
 
 const AdminLogin = () => {
@@ -82,6 +83,8 @@ const AdminLogin = () => {
                     </div>
                 </form>
             </div>
+
+            <Footer />
         </div>
     );
 };

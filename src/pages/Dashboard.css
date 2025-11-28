@@ -14,7 +14,9 @@
     margin-bottom: var(--spacing-lg);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .dashboard-title {
